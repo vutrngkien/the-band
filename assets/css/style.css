@@ -170,7 +170,7 @@ html, body, .modal {
 #slider {
     margin-top: 46px; 
     padding-top: 50%;
-    background-image: url('/F8/w3_band/assets/img/slider/chicago.jpg');
+    background-image: url('../img/slider/chicago.jpg');
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
