@@ -176,10 +176,14 @@ html, body, .modal {
     background-size: cover;
     color: white;
     text-align: center;
+    position: relative;
 }
 
 #slider .title{
     padding: 32px 0;
+    position: absolute;
+    top: calc(100% - 158px);
+    width: 100%;
 }
 
 #slider .slider-title{
