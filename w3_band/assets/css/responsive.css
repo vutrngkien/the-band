@@ -1,0 +1,100 @@
+/* tablet */
+@media (max-width: 1024px) and (min-width: 740px) {
+    .content{
+        max-width: 100%;
+    }
+
+    #header>.navbar>li{
+        display: inline-block;
+    }
+
+    #header .navbar{
+        display: inline-block;
+    }
+}
+
+/* Pc */
+@media (min-width: 1024px) {
+    .content{
+        width: 800px;
+    }
+
+    #header>.navbar>li{
+        display: inline-block;
+    }
+
+    #header .navbar{
+        display: inline-block;
+    }
+}
+
+/* mobile */
+@media (max-width: 739px) {
+    #header{
+        overflow: hidden;
+    }
+
+    #header>.navbar>li {
+        display: block;
+    }
+
+    #header .search-btn{
+        display: none;
+    }
+
+    .mobile-menu-btn{
+        display: inline-block;
+    }
+
+    #header .navbar{
+        display: block;
+    }
+
+    #header .navbar li a{
+        display: block;
+        line-height: 22px;
+    }
+
+    .subnav li:hover{
+        color: black;
+    }
+
+    .navbar .subnav{
+        position: initial;
+        background-color: #333;
+        color: #fff;
+    }
+
+    .navbar .subnav li{
+        padding: 12px 42px;
+    }
+
+    .col {
+        float: none;
+        padding: 8px;
+    }
+
+    .col-3th{
+        width: calc(100%);
+    }
+
+    .col-half{
+        width: 100%;
+    }
+
+    #slider .title{
+        display: none;
+    }
+
+    .content .heading{
+        letter-spacing: 4px;
+    }
+
+    #content-list .avt{
+        width: 200px;
+    }
+
+    .full-width{
+        width: 100%   !important; 
+    }
+}

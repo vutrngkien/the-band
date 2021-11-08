@@ -1,0 +1,510 @@
+/* reset CSS */
+html, body, .modal {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* common */
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+    box-sizing: border-box;
+}
+
+
+.mt-8{
+    margin-top: 8px;
+}
+
+.mt-16{
+    margin-top: 16px;
+}
+
+.clear{
+    overflow: hidden;
+}
+
+.col {
+    float: left;
+    padding: 0 8px;
+    box-sizing: border-box;
+}
+
+.col-half{
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.col-full {
+    width: 100%;
+}
+
+.col-3th{
+    width: calc(100%/3);
+    box-sizing: border-box;
+}
+
+.color-white{
+    color: white;
+}
+/* main */
+
+.text-center{
+    text-align: center !important;
+}
+
+#header{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    margin-top: 0;
+    width: 100%;
+    height: 46px;
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+}
+
+.mobile-menu-btn:hover{
+    background-color: #ccc;
+    color: black;
+}
+
+#header .search-btn:hover{
+    background-color: #f44336;
+}
+
+#header .search-btn,.mobile-menu-btn{
+    float: right;
+    color: white;
+    right: 0px;
+    top: 0px;
+    padding: 12px 24px;
+    cursor: pointer;
+}
+
+.mobile-menu-btn{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#header .ti-search,#header .ti-menu {
+    line-height: 22px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#header .navbar {
+    margin: 0;
+    padding: 0;
+}
+
+.ti-angle-down{
+    font-size: 14px;
+}
+
+#header>.navbar>li:hover a, .navbar>li:hover{
+    color: black;
+    background-color:  #ccc;
+}
+
+#header>.navbar>li:first-child{
+    display: inline-block;
+}
+
+#header>.navbar>li{
+    list-style-type: none;
+    text-transform: uppercase;
+    position: relative;
+    
+}
+
+#header>.navbar>li>a{
+    color: white;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 12px 24px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.navbar li:hover .subnav{
+    display: block;
+}
+
+.subnav li:hover{
+    background-color: #ccc;
+}
+
+.navbar .subnav{
+    color: black;
+    position: absolute;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    top: 46px;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+    display: none;
+}
+
+.navbar .subnav li{
+    min-width: 160px;
+    box-sizing: border-box;
+    padding: 8px 16px;
+    list-style-type: none;
+    text-transform: capitalize;
+    font-size: 15px; 
+    cursor: pointer;
+}
+
+/* #main {
+
+} */
+
+#slider {
+    margin-top: 46px; 
+    padding-top: 50%;
+    background-image: url('/F8/w3_band/assets/img/slider/chicago.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+#slider .title{
+    padding: 32px 0;
+}
+
+#slider .slider-title{
+    margin: 10px 0;
+    line-height: 36px;
+}
+
+#slider .sub-title{
+    margin: 15px 0;
+}
+
+/* #content-list{
+    width: 800px;
+    min-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+} */
+
+#content-list .content {
+    padding: 0px 16px;
+    padding-top: 64px;
+    padding-bottom: calc(64px + 48px);
+    /* max-width: 100%;
+    width: 800px; */
+    min-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.content .desc {
+    text-align: justify;
+    margin: 15px 0;
+}
+
+.content .heading {
+    margin: 10px 0;
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 400;
+    letter-spacing: 9px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.content .subheading{
+    font-size: 16px;
+    margin: 15px 0;
+    font-style: italic;
+    opacity: 60%;
+    text-align: center;
+}
+
+
+
+#content-list .name{
+    margin: 15px 0;
+}
+
+#content-list .avt{
+    width: 154px;
+    border-radius: 5px;
+}
+
+#content-list .tour{
+    background-color: black;
+    
+}
+
+
+.tour .ticket{
+    padding: 0;
+    margin-top: 32px;
+    margin-bottom: 0;
+}
+
+.tour .ticket li{
+    font-size: 15px;
+    line-height: 22px;
+    color: #757575;
+    display: block;
+    padding: 8px 16px;
+    background-color: white;
+    border-bottom: #ddd solid 1px;
+}
+
+.tour .soldout{
+    background-color: #f44336;
+    color: white;
+    padding: 3px 6px;
+    margin-left: 15px;
+}
+
+.tour .quantity{
+    color: white;
+    background-color: black;
+    float: right;
+    width: 22px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.places-section{
+    margin-top: 32px;
+}
+
+
+.places-section .place-content{
+    background-color: white;
+    padding: 16px;
+}
+
+
+
+.places-section .date, .desc{
+    margin: 15px 0;
+}
+
+.places-section .date {
+    opacity: 60%;
+}
+
+.places-section .nameOfplace{
+    margin: 0%;
+    font-size: 15px;
+}
+.places-section .place-img{
+    width: 100%;
+}
+
+.places-section .buyticket:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.places-section .buyticket{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    line-height: 22px;
+
+    cursor: pointer;
+
+}
+
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.4);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal.open{
+    display: flex;
+}
+
+.modal-container {
+    animation: modalFaceIn ease 0.3s;
+    background-color: white;
+    width: 900px;
+    min-height: 200px;
+    max-width: calc(100% - 32px);
+    position: relative;
+}
+.modal-container .close-btn .ti-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 8px 16px;
+    z-index: 2;
+}
+
+.close-btn:hover .ti-close{
+    background: #ccc;
+    color: black;
+}
+
+.close-btn .ti-close{
+    line-height: 32px;
+    color: white;
+    cursor: pointer;
+}
+.modal-container .header{
+    position: relative;
+    background-color: #009688;
+    padding: 32px 16px;
+    text-align: center;
+    color: white;
+    letter-spacing: 5px;
+    font-size: 30px;
+    line-height: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 1;
+}
+
+.modal-body{
+    padding: 16px;
+}
+
+.modal-body p{
+    float: right;
+}
+
+.modal-label{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.modal-input{
+    display: block;
+    width: 100%;
+    padding: 8px 8px;
+    line-height: 22px;
+    border: #ccc solid 1px;
+}
+
+.modal-pay:hover{
+    color: black;
+    background-color: #ccc;
+}
+
+.modal-pay{
+    border: none;
+    width: 100%;
+    padding: 16px;
+    background: #009688;
+    margin: 16px 0;
+    line-height: 22px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.modal-close:hover{
+    background-color: #ccc;
+    color: black;
+}
+
+.modal-close{
+    padding: 8px 16px;
+    border: none;
+    background-color: #f44336;
+    line-height: 22px;
+    margin-top: 16px;
+    color: white;
+}
+
+@keyframes modalFaceIn {
+    from {
+        opacity: 0;
+        transform: translateY(-300px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.contact-content{
+    padding: 32px 0;
+}
+
+.contact-content p{
+    margin: 5px 0;
+}
+
+.contact-infor {
+    font-size: 18px;
+}
+
+.contact-form {
+    font-size: 15px;
+}
+
+.contact-form .form-control {
+    outline: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.contact-form .form-submit-btn {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    float: right;
+}
+
+.map-section .map-img {
+    width: 100%;
+}
+
+#footer {
+    padding: 64px 16px ;
+    text-align: center;
+    font-size: 24px;
+    color: rgba(0,0,0,0.5);
+}
+
+#footer a{
+    color: rgba(0,0,0,0.5);
+}
+
+.socials-list a{
+    text-decoration: none;
+}
+
+.socials-list a:hover{
+    opacity: 50%;
+}
+
+.copyright{
+    font-size: 15px;
+    margin: 0px;
+    margin-top: 15px;
+    color: rgba(0,0,0,0.5);
+}
