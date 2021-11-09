@@ -184,6 +184,7 @@ html, body, .modal {
     position: absolute;
     top: calc(100% - 158px);
     width: 100%;
+    text-shadow: 0 0 3px black;
 }
 
 #slider .slider-title{

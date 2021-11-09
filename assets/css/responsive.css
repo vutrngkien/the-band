@@ -1,5 +1,5 @@
 /* tablet */
-@media (max-width: 1024px) and (min-width: 740px) {
+@media (max-width: 63.9375em) and (min-width: 46.25em) {
     .content{
         max-width: 100%;
     }
@@ -14,7 +14,7 @@
 }
 
 /* Pc */
-@media (min-width: 1024px) {
+@media (min-width: 64em) {
     .content{
         width: 800px;
     }
@@ -29,7 +29,7 @@
 }
 
 /* mobile */
-@media (max-width: 739px) {
+@media (max-width: 46.1875em) {
     #header{
         overflow: hidden;
     }
