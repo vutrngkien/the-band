@@ -473,6 +473,7 @@ html, body, .modal {
     color: white;
     padding: 10px 16px;
     float: right;
+    -webkit-appearance: none;
 }
 
 .map-section .map-img {
